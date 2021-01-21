@@ -44,8 +44,10 @@ export function zambiaList(){
     const zambiaLandmarkHTML = buildLandmarkListHTML(zambiaLandmarkCollection);
 
     zambiaCountry.innerHTML = `
+    <div class = "card-text">
     <h2>Cities</h2>${zambiaCityHTML}
     <h2>Celebrities</h2>${zambiaCelebrityHTML}
-    <h2>Landmarks</h2>${zambiaLandmarkHTML}`
+    <h2>Landmarks</h2>${zambiaLandmarkHTML}
+    </div>`
 }
 
