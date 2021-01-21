@@ -45,9 +45,9 @@ export function zambiaList(){
 
     zambiaCountry.innerHTML = `
     <div class = "card-text">
-    <h2>Cities</h2>${zambiaCityHTML}
-    <h2>Celebrities</h2>${zambiaCelebrityHTML}
-    <h2>Landmarks</h2>${zambiaLandmarkHTML}
+    <div><h2>Cities</h2>${zambiaCityHTML}</div>
+    <div><h2>Celebrities</h2>${zambiaCelebrityHTML}</div>
+    <div><h2>Landmarks</h2>${zambiaLandmarkHTML}</div>
     </div>`
 }
 
