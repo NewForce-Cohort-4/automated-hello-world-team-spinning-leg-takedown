@@ -3,13 +3,13 @@ let zambiaCityInfo = ["Lusaka", "Kitwe", "Ndola"];
 let zambiaLandmarkInfo = [
   "Victoria Falls",
   "Kafue National Park",
-  "Kariba Dam",
+  "Kariba Dam"
 ];
 
 let zambiaCitizenInfo = [
   "Thokozile Muwamba",
   "Wilbur A. Smith",
-  "Robert Earnshaw",
+  "Robert Earnshaw"
 ];
 
 export function useCityCollection(){
