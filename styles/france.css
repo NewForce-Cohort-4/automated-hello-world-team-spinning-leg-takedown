@@ -27,10 +27,11 @@ body {
 .france-picture {
   margin-top: 3em;
   margin-bottom: 3em;
-  width: 700px;
+  width: 40%;
 }
 
 .title {
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 
