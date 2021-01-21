@@ -17,10 +17,14 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 95vh;
+  height: 72vh;
 }
 
 #main-content {
   display: flex;
   justify-content: space-evenly;
+}
+
+.france-picture {
+  height: 500px;
 }
