@@ -1,12 +1,12 @@
 import { useCelebrity, useCity, useLandmark } from './canadaDataProvider.js'
 import { Canada } from "./canada.js"
-
+// This will allow us to link our information to the canada.html page
 let canadaContainer = document.querySelector("#main-content");
 
 let cityCollectionArray = useCity();
 let celebrityCollectionArray = useCelebrity();
 let landmarkCollectionArray = useLandmark();
-
+// This function will pull all of the information about our cities and allow us to print them to the DOM
  function buildCityListHTML(cityCollection){
     let cityListHTMLString = "";
 
@@ -16,6 +16,7 @@ let landmarkCollectionArray = useLandmark();
     return cityListHTMLString;
 };
 
+// This function will pull all of the information about our celebrities and allow us to print them to the DOM
 function buildCelebrityListHTML(celebrityCollection){
     let celebrityListHTMLString = "";
 
@@ -25,6 +26,7 @@ function buildCelebrityListHTML(celebrityCollection){
     return celebrityListHTMLString;
 };
 
+// This function will pull all of the information about our Landmarks and allow us to pring them to the DOM
 function buildLandmarkListHTML(landmarkCollection){
     let landmarkListHTMLString = "";
 
@@ -34,6 +36,7 @@ function buildLandmarkListHTML(landmarkCollection){
     return landmarkListHTMLString;
 };
 
+// This function EXPORTS the functions created above and 
 export function CanadaList(){
     const canadaCityCollection = useCity();
     const canadaCelebrityCollection = useCelebrity();
