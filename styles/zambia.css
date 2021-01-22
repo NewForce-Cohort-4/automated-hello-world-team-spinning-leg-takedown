@@ -7,12 +7,13 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
   }
 
   #main-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
   }
 
   .title {
@@ -21,9 +22,11 @@ body {
   }
 
   .card-text {
-      /* display: flex;
-      flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
     margin-bottom: 2em;
+     
   }
 
   footer {
