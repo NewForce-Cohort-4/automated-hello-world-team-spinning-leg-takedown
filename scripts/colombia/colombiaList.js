@@ -21,7 +21,7 @@ function buildColombiaLandmark(colombiaLandmarks){
 function buildColombiaCelb(colombiaCelebs){
     let buildCelebHTML = "";
     for(let z = 0; z < colombiaCelebs.length; z++){
-        buildCelebHTML += `<li>${colombiaCelebs[z].celeb}`
+        buildCelebHTML += `<li>${colombiaCelebs[z].celeb}</li>`
     };
     return buildCelebHTML
 }
