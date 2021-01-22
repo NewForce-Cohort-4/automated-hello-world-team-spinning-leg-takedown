@@ -36,7 +36,7 @@ function buildLandmarkListHTML(landmarkCollection){
     return landmarkListHTMLString;
 };
 
-// This function EXPORTS the functions created above and 
+// This function EXPORTS the functions created above and gives each card a seperate div and class to allow for manipulating in CSS
 export function CanadaList(){
     const canadaCityCollection = useCity();
     const canadaCelebrityCollection = useCelebrity();
