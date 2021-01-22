@@ -1,0 +1,25 @@
+/* body {
+    background-color: rgb(199, 198, 198);
+} */
+
+.image-container{
+text-align: center;
+background-color: yellow;
+}
+
+.colombia-content{
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: space-around;
+    padding: 3%;
+    background-color: blue;
+}
+
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: red;
+    margin-bottom: -3em;
+}
