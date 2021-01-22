@@ -43,9 +43,9 @@ export function zambiaList(){
     const zambiaCelebrityHTML = buildCelebrityListHTML(zambiaCitizenCollection);
     const zambiaLandmarkHTML = buildLandmarkListHTML(zambiaLandmarkCollection);
 
-    zambiaCountry.innerHTML = `
-    <h2>Cities</h2>${zambiaCityHTML}
-    <h2>Celebrities</h2>${zambiaCelebrityHTML}
-    <h2>Landmarks</h2>${zambiaLandmarkHTML}`
+    zambiaCountry.innerHTML += `<div class = "card-text"><h2>Cities</h2>${zambiaCityHTML}</div>`
+    zambiaCountry.innerHTML += `<div class = "card-text"><h2>Celebrities</h2>${zambiaCelebrityHTML}</div>`
+    zambiaCountry.innerHTML += `<div class = "card-text"><h2>Landmarks</h2>${zambiaLandmarkHTML}</div>`
+
 }
 
