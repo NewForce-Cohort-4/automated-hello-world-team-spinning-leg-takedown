@@ -44,7 +44,7 @@ export function CanadaList(){
     const canadaCelebrityHTML = buildCelebrityListHTML(canadaCelebrityCollection);
     const canadaLandmarkHTML = buildLandmarkListHTML(canadaLandmarkCollection);
     canadaContainer.innerHTML = `
-    <h2>Cities</h2>${canadaCityHTML}
-    <h2>Celebrities</h2>${canadaCelebrityHTML}
-    <h2>Landmarks</h2>${canadaLandmarkHTML}`
+    <div class="card-text"><h2>Cities</h2>${canadaCityHTML}</div>
+    <div class="card-text"><h2>Celebrities</h2>${canadaCelebrityHTML}</div>
+    <div class="card-text"><h2>Landmarks</h2>${canadaLandmarkHTML}</div>`
 };
