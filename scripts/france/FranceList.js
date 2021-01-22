@@ -47,11 +47,9 @@ export function FranceList() {
   const franceLandmarkHTML = buildLandmarkListHTML(franceLandmarkCollection);
 
 
-  franceContainer.innerHTML = `
-  <h2>Cities</h2>${franceCityHTML}
-  <h2>Celebrities</h2>${franceCelebrityHTML}
-  <h2>Landmarks</h2>${franceLandmarkHTML}
-`
+  franceContainer.innerHTML = `<div class="card-text"><h2>Cities</h2>${franceCityHTML}</div>`;
+  franceContainer.innerHTML += `<div class="card-text"><h2>Celebrities</h2>${franceCelebrityHTML}</div>`;
+  franceContainer.innerHTML += `<div class="card-text"><h2>Landmarks</h2>${franceLandmarkHTML}</div>`;
 }
 
 
