@@ -1,9 +1,8 @@
 export function Canada(canadaArray){
+  // This is a function that will export the template for each set of information in my Array's 
     return `
-  <div class="card-text">
     <ul>
         <li>${canadaArray}</li>
     </ul>
-  </div>
   `
 };
